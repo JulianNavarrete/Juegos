@@ -1,6 +1,7 @@
 import random
 magicalNumber = random.randint(0,100)
 valorValido = False
+c = 0
 
 print (magicalNumber)
 def verificarValor(num):
@@ -11,7 +12,6 @@ def verificarValor(num):
         valorValido = True
         return valorValido
 
-c = 0
 
 while c < 10:
     c = c + 1
